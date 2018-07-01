@@ -1,0 +1,37 @@
+---
+title: "equations"
+author: "crl"
+date: "May 23, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+## EQUATIONS
+
+See [link](http://visualmatheditor.equatheque.net/VisualMathEditor.html)
+
+
+### Normal Distribution
+
+$$f\left(x\right) = \frac{1}{\sigma \sqrt{2\pi } } e^{-\left(\frac{1}{2\sigma ^{2} } \right) } \left(x-\mu \right) ^{2} \\$$
+
+$$L\left(\theta |x\right) = f\left(x|\theta \right) \\$$
+
+$$f\left(x_{i} \right) = \frac{1}{\sigma \sqrt{2\pi } } e^{-\left(\frac{1}{2\sigma ^{2} } \right) } \left(x_{i} -\mu \right) ^{2} \\$$
+
+### Likelihood of Normal Distribution
+
+$$L\left(\theta |x \right) = \prod\limits_{i}{} f\left(x_{i} |\theta \right) \\$$
+
+
+$$\ln \left(L\left(\theta |x \right)\right)  = \sum\limits_{i}{}\ln \left(f\left(x_{i} |\theta \right)\right) \\$$

@@ -1,0 +1,32 @@
+﻿creating github repository for R project
+
+create R project local
+add files (such as .R script)
+
+https://www.r-bloggers.com/rstudio-and-github/
+
+ON GITHUB
+create the repository (do not select the option to create a read.me file)
+once created, github will provide instructions
+
+
+EXAMPLE
+Quick setup — if you’ve done this kind of thing before
+or
+
+We recommend every repository include a README, LICENSE, and .gitignore.
+…or create a new repository on the command line
+
+echo "# set_itbq_goals_2018" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/longcli/set_itbq_goals_2018.git
+git push -u origin master
+
+
+EXAMPLE
+"push" option not available in RStudio
+
+http://jeromyanglim.tumblr.com/post/63159223332/how-to-push-existing-git-rstudio-repository-to
+
